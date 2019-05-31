@@ -1,0 +1,10 @@
+/*
+Theme Name: First theme
+Description: Child theme based on Twenty Seventeen
+Author: Ces Jyrwa
+Version: 1.0
+Template: twentyseventeen
+*/
+
+@import url('../twentyseventeen/style.css')
+
