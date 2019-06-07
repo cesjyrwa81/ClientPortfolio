@@ -40,7 +40,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<?php //get_sidebar(); ?> <!--commented out side bar-->
+	<?php get_sidebar(); ?> 
 </div><!-- .wrap -->
 
 <?php
