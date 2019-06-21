@@ -12,7 +12,7 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
-function wpb_add_google_fonts() {wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif&display=swap', false ); }
+function wpb_add_google_fonts() {wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?family=Noto+Sans+SC|Noto+Serif&display=swap', false ); }
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
 ?>

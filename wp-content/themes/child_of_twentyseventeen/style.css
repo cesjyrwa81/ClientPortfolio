@@ -6,30 +6,47 @@ Version: 1.0
 Template: twentyseventeen
 */
 
+/* Google fonts
+*font-family: 'Noto Serif', serif;
+*font-family: 'Noto Sans SC', sans-serif;
+*/
+
 @import url('../twentyseventeen/style.css')
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Noto+Serif&display=swap');
 
 body {
-	background: #EFB8CD;
+	background: #fcecf1;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+body.has-header-image .site-title a, body.has-header-video .site-title a {
+    font-family: 'Noto Sans SC', sans-serif;
 }
 
 
 .site-content {
-	background: #EFB8CD;
+	background: #fcecf1;
 }
 
 h1 {
 	font-size: 50px;
-	font-color: black;
 	font-family: 'Noto Serif', serif;
 }
 
 h2 {
 	font-size: 30px;
-	font-color: black;
 	font-family: 'Noto Serif', serif;
 }
 
-<div id="wp-custom-header" class="wp-custom-header">
-<img src="wordpress_banner1.jpg" width="2000" height="1200" alt="Ces' Portfolio">
-</div>
+
+body.has-header-image .site-title a, body.has-header-video .site-title a {
+    color: #d52b82;
+}
+
+.navigation-top a {
+    color: #d52b82;
+}
+
+body.has-header-image .site-description, body.has-header-video .site-description {
+    color: #222;
+}
